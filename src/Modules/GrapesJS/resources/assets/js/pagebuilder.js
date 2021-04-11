@@ -2,6 +2,7 @@ $(document).ready(function() {
 
     $(".gjs-editor").append($("#toggle-sidebar"));
     $(".gjs-pn-panels").prepend($("#sidebar-header"));
+    $(".gjs-pn-panels").append($("#sidebar-bottom-device"));
     $(".gjs-pn-panels").append($("#sidebar-bottom-buttons"));
 
     $("#toggle-sidebar").click(function() {

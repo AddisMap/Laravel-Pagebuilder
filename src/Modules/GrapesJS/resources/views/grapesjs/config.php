@@ -5,6 +5,8 @@ return [
     'noticeOnUnload' => false,
     'avoidInlineStyle' => true,
     'allowScripts' => true,
+    'showDevices' => true,
+    'devicePreviewMode' => true,
     'storageManager' => [
         'type' => 'remote',
         'autoload' => false,

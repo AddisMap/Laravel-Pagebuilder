@@ -86,13 +86,71 @@ html, body, #gjs {
   }
 }
 .gjs-pn-commands,
-.gjs-pn-options,
-.gjs-pn-devices-c {
+.gjs-pn-options {
   display: none;
 }
 .gjs-devices-c {
   padding: 0;
+  display: flex;
+  align-items: center;
+  padding: 0;
+
+  .gjs-device-label {
+    flex-grow: 2;
+    font-size: 0.7em;
+    text-align: left;
+    margin-right: 5px;
+    color: #aaa;
+  }
+
+  .gjs-select {
+    flex-grow: 20;
+    color: #888;
+    font-size: 12px;
+  }
+
+  .gjs-pn-views-container {
+    border-right: 0;
+    padding-top: 89px;
+    background: #222;
+    height: calc(100% - 80px);
+    overflow: hidden;
+  }
 }
+
+.gjs-pn-devices-c {
+  position: absolute;
+  bottom: 50px;
+  left: 155px;
+  margin: -5px;
+  color: #aaa;
+  background: transparent;
+}
+
+#sidebar-bottom-device {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    height: 40px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #fff;
+    border-top: 1px solid #dbdbdb;
+    border-right: 2px solid #dfe0e1;
+}
+
+#gjs-pn-devices-c {
+    width: 85%;
+    z-index: 1;
+}
+
+#gjs-pn-devices-c {
+    padding-left: 30px;
+}
+
 .gjs-one-bg {
   background-color: #fff;
   border-bottom: none;

@@ -119,6 +119,8 @@ require __DIR__ . '/grapesjs/trait-manager.php';
     ?>
 </div>
 
+<div id="sidebar-bottom-device"></div>
+
 <div id="sidebar-bottom-buttons">
     <button id="save-page" class="btn" data-url="<?= phpb_url('pagebuilder', ['action' => 'store', 'page' => $page->getId()]) ?>">
         <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
