@@ -55,6 +55,12 @@ return [
         'labelPlhText' => '',
         'labelPlhHref' => 'https://website.com'
     ],
+    'deviceManager' => [
+        'devices' => [
+            ['name' => 'Desktop', 'width' => ''],
+            ['name' => 'Tablet', 'width' => '991px']
+        ]
+    ],
     'panels' => [
         'defaults' => [
             [
